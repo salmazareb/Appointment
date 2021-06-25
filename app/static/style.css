@@ -1,0 +1,24 @@
+body
+{
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 50px 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px; 
+}
+table {
+    width : 100%;
+    }
+th 
+{
+    height : 40px;
+    padding: auto; 
+}
+tbody tr:nth-child(odd) {
+    background-color: #af7b7b;
+    }
